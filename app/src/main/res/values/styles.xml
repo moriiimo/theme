@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Widget.AppTheme.Button" parent="Widget.MaterialComponents.Button">
+        <item name="rippleColor">?attr/colorSecondary</item>
+    </style>
+
+    <style name="Widget.AppTheme.CutCardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">?attr/colorSecondary</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.AppTheme.CutCard</item>
+    </style>
+</resources>
